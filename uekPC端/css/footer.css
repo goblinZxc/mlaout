@@ -1,0 +1,179 @@
+.footer{
+	background: #2691FD;
+	padding-top:64px;
+	padding-bottom: 20px; 
+	overflow: hidden;
+}
+.footer .servicebox{
+	padding-bottom: 20px;
+}
+.footer .address{
+	padding-left: 100px;
+	width: 320px;
+	border-right: 1px solid #2083E7;
+	overflow: hidden;
+}
+.footer .address p{
+	line-height: 20px;
+	color: #fff;
+	font-size: 14px;
+}
+.footer .address div{
+	margin-bottom: 15px;
+}
+.footer .address .ad1 p{
+	font-size: 16px;
+}
+
+.footer .service{
+	padding: 0 14px 27px 24px; 
+	border-right:1px solid #2083E7; 
+	overflow: hidden;
+}
+.footer .service ul{
+	float: left;
+	width: 100px;
+}
+.footer .service .u1{
+	margin-right: 24px;
+}
+.footer .service .l1{
+	margin-bottom: 40px;
+}
+.footer .service span{
+	color: #fff;
+}
+.footer .service a{
+	line-height: 28px;
+	font-size: 14px;
+	color: #fff;
+}
+.footer .service a:hover{
+	text-decoration: underline;
+}
+
+.footer .contect{
+	padding-left: 28px;
+}
+.footer .contect .phone{
+	width: 164px;
+	margin-bottom: 5px;
+}
+.footer .contect .phone img{
+	width: 163px;
+	height: 23px;
+}
+.footer .contect .erweima img{
+	width: 164px;
+	height: 164px;
+}
+
+.footer .copyright{
+	line-height: 90px;
+	height: 80px;
+	text-align: center;
+	box-shadow: 0 -5px 12px #1F81E0
+}
+.footer .copyright span{
+	margin-right: 18px;
+	color: #fff;
+}
+
+
+/*侧边栏1*/
+.as1{
+	background:url(../img/onlineimgsrc_cn.png) no-repeat left center;
+	width: 104px;
+	height:260px;
+	position: fixed;
+	left: 0;
+	bottom:200px;
+	cursor: pointer;
+}
+.as1 .close{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 12px;
+	height: 12px;
+	background:#00B0F0;
+	color: #fff;
+	text-align: center;
+	line-height: 12px;
+	font-size: 10px;
+}
+
+/*侧边栏2*/
+.as2{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

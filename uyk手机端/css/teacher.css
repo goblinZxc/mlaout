@@ -1,0 +1,137 @@
+.nav1{
+	width: 100%;
+	height: .82rem;
+}
+.nav1 a{
+	line-height: .82rem;
+	font-size: 10px;
+	margin-left: .24rem;
+	color: #000;
+}
+.nav1 span{
+	line-height: .82rem;
+	font-size: 10px;
+}
+
+.teachers{
+	width: 100%;
+	/*height: ;/*/
+}
+.teachers nav{
+	width: 100%;
+}
+.teachers nav ul{
+	text-align: center;
+	margin: 0 0.24rem;
+	border: 1px solid #01B5FF;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: .23rem;
+}
+.teachers nav li{
+	border-radius: 10px;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	font-size: 15px;
+}
+.teachers nav li a{
+	text-align: center;
+	line-height:0.78rem;
+	height:0.78rem;
+	float: left;
+	width: 100%;
+	color: #000;
+	border-radius: 10px;
+}
+.teachers nav li a:hover{
+	background: #01B5FF;
+	color: #fff;
+}
+
+
+.teachershow{
+
+}
+.teachershow ul{
+	margin: 0 0.24rem;
+	overflow: hidden;
+	margin-bottom: 0.08rem;
+}
+.teachershow ul li{
+	background: #fff;
+	padding: 0.23rem 0.18rem 0.2rem 0.2rem;
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+.teachershow .tu{
+	width: 33%;
+}
+.teachershow .tu a{
+	width: 2.27rem;
+	height: 2.27rem;
+	background: url(../img/t.jpg) no-repeat left top/cover;
+	border-radius: 5px;
+	display: block;
+}
+.teachershow .wen{
+	width: 67%;
+	padding-left: .27rem;
+	font-size: 13px;
+}
+.teachershow .wen .up{
+	padding-top: .15rem;
+}
+.teachershow .wen .up span{
+	/*margin-right: 1.8rem;*/
+	color: #000;
+	float: left;
+}
+.teachershow .wen .up a{
+	color: #FF9710;
+	float: right;
+}
+.teachershow .wen .hx{
+	width: 1.75rem;
+	height: 0;
+	border-top: 1px dashed #D4D4D4;
+	margin: 0.08rem 0;
+}
+.teachershow .wen .middle{
+	margin-bottom: .2rem;
+}
+.teachershow .wen .middle p{
+	color: #05B6FF;
+}
+.teachershow .wen .down p{
+	max-width: 3.06rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:-webkit-box;
+	-webkit-line-clamp:3;
+	-webkit-box-orient: vertical;
+	line-height: .39rem;
+}
+
+
+
+.f2{
+	text-align: center;font-size: 10px;
+	width: 100%;
+}
+.f2 p {
+	text-align: center;
+}
+.f2 p:nth-child(1){
+	padding-bottom: 0.14rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.f2 p:nth-child(2){
+	padding-bottom: 0.24rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+

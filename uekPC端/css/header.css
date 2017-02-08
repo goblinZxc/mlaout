@@ -1,0 +1,183 @@
+/*header*/
+.header{
+	padding-top: 8px;
+	overflow: hidden;
+}
+.header .logo a{
+	float: left;
+}
+.header .logo img{
+	width: 107px;
+	height: 107px;
+}
+.header .company{
+	margin-left: 15px;
+}
+.header .company p{
+	font-weight: bold;
+	font-size: 18px;
+}
+.header .company h2{
+	margin-top: 13px;
+	margin-bottom: 3px;
+	color: #031A6A;
+}
+
+.header .zhichi{
+	padding-top: 32px;
+}
+.header .zhichi li{
+	float: left;
+	margin-right:35px ;
+}
+.header .zhichi .z1 img{
+	width: 120px;
+	height: 50px;
+}
+.header .zhichi .z2 img{
+	width: 150px;
+	height: 50px;
+}
+.header .zhichi .z3{
+	margin-right: 0;
+}
+.header .zhichi .z3 img{
+	width: 195px;
+	height: 50px;
+}
+
+
+/*navbox*/
+.navbox{
+	background: #2691FD;
+	width: 100%;
+	height: 80px;
+	box-shadow: 0 -5px 15px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.2);
+}
+.nav{
+	/*overflow: hidden;*/
+	height: 100%;
+}
+.nav .items{
+	color: #fff;
+	border: 1px solid #2691FD;
+	border-radius: 20px;
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	padding: 0 24px;
+	cursor: pointer;
+	font-size: 20px;
+	margin: 0 21px;
+	margin-top: 22px;
+	position: relative;
+	transition:border-color 200ms,background 200ms;
+}	
+.nav .items.sp{
+	margin-left:39px;
+	margin-right: 39px; 
+}
+.nav .items:hover{
+	border-color: #fff;
+	background: #94D43B;
+}
+.nav .items ul{
+	position: absolute;
+	top:20;
+	width: auto;
+	height:0;
+	z-index: 999999;
+	display: none;
+	padding-top: 22px;
+	transition:height 2000ms;	
+}
+.nav .it1 ul{
+	left: -48px;
+}
+.nav .it2 ul{
+	left: -34px;
+}
+.nav .it3 ul{
+	left: -52px;
+}
+.nav .it4 ul{
+	left: -1px;
+}
+.nav .items:hover ul{
+	display: block;
+	height: auto;
+	top: 34px;
+}
+.nav .items:hover .sx{
+	height: 161px;
+}
+.nav .items:hover .SX{
+	height: 140px;
+}
+.nav .items ul li{
+	width: auto;
+	margin: 0 auto;
+	margin-bottom: 8px;
+	text-align: center;
+	display: block;
+}
+.nav .items a{
+	display:inline-block;
+	color: #1F2138;
+	padding: 1px 24px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	font-size: 20px;
+	text-align: center;
+	white-space: nowrap;
+	background: #fff;
+	transition:background 300ms;
+}
+.nav .items ul li a:hover{
+	background:  #94D43B;
+	color: #fff;
+}
+.nav .items span{
+	position: absolute;
+	background: #fff;
+	width: 1px;
+	height:0;
+	transition:height 300ms;
+	top: 34px;
+	z-index: 100;
+}
+.nav .items .sx1{
+	left: 25px;
+}
+.nav .items .sx2{
+	right: 25px;
+}
+.lunbo{
+	width: 100%;height:400px;
+	background: url(../img/lunbo.jpg) center center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

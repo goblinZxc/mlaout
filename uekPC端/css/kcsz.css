@@ -1,0 +1,510 @@
+.hr_90{
+	height: 90px;
+}
+.peixun{
+	padding-top:34px;  
+}
+.qid{
+	background: url(../img/qid.png) no-repeat;
+	width: 956px;
+	margin:0 auto;
+	text-align: center;
+}
+.qid1{
+	width: 63px;height: 50px;
+	margin: 0 auto;
+}
+.qid1 img{
+	width: 63px;
+	height: 50px;
+}
+.qid2{
+	font-size: 32px;
+	color: #01B5FF;
+	margin-bottom: 5px;
+}
+.qid3{
+	display: inline-block;
+	color: #01BBFF;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.qid3 span{
+	float: left;
+	display: inline-block;
+}
+.qid3 a{
+	float: left;
+	display: inline-block;
+	height: 6px;
+	width: 1px;
+	margin: 8px 7px;
+	background: #ccc;
+}
+.qid4{
+	width: 21px;height: 21px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.qid4 img{
+	width: 21px;
+	height: 21px;
+}
+.words{
+	color: #504C4C;
+	font-size: 12px;
+	line-height: 26px;
+}
+.h3sm{
+	color: #01B5FF;
+	padding: 10px 0;
+}
+.qid8{
+	padding-bottom: 37px;
+}
+.shadow{
+	background: url(../img/ld-shadowup.png) no-repeat center center/cover;
+	width: 100%;
+	height: 28px;
+}
+/*就业薪资*/
+.paymentbox{
+	padding-top: 40px;
+	overflow: hidden;
+	background: #fafafa;
+}
+.payment{
+
+}
+.payment h2{
+	font-size: 30px;
+	font-weight: normal;
+}
+.payment h2 .hs1{
+	color: #01B5FF;
+}
+.payment h2 .hs2{
+	margin-left: 58px;
+	font-family: "黑体";
+}
+.payment h1{
+	color: #01B5FF;
+	font-size: 52px;	
+}
+.payment h1 .hs1{
+	/*font-size: 40px;*/
+}
+.payment h1 .hs2{
+	font-weight: normal;
+}
+.payshow{
+	padding-top: 90px;
+	padding-bottom: 80px;
+}
+.paypic{
+	text-align: center;
+}
+.paypic img{
+	width: 549px;
+	height: 413px;
+}
+.paypic p{
+	font-size: 22px;
+}
+.paydc{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width: 476px;
+	height: 395px;
+	margin-left: 123px;
+	text-align: center;
+	padding-top: 63px;
+}
+.paydc h3{
+	margin-bottom: 57px;
+	color: #FF6602;
+}
+.paydc h3 .hs1{
+	font-size: 60px;
+}
+.paydc h3 .hs2{
+	font-size: 35px;
+}
+.paydc .p1{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom:32px;
+}
+.paydc .p2{
+	color: #999691;
+	font-size: 20px;
+}
+.paydc .toupiao{
+	text-align: center;
+	padding-left: 32px;
+	padding-top: 11px;
+	padding-bottom: 9px;
+}
+.paydc .toupiao li{
+	float: left;
+	width: 130px;
+	height: 50px;
+	background: #01CDCC;
+	color: #fff;
+	font-size: 22px;
+	line-height: 50px;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.paydc .tickets{
+	text-align: center;
+	padding-left: 32px;
+}
+.paydc .tickets li{
+	color: #8C9195;
+	float: left;
+	font-size: 18px;
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 10px;
+}
+.paydc .tickets li.last{
+	color: #FF7D02;
+}
+/*就业岗位*/
+.jobbox{
+	padding-top: 40px;
+	overflow: hidden;
+}
+.jobs{
+	padding-top: 70px;
+}
+.jobs1{
+	width: 410px;
+	height: auto;
+}
+.describebox{
+	margin-bottom: 50px;
+	height: 56px;
+}
+.describe.d1{
+	width: 336px;
+	padding-right: 16px;
+	text-align: right;
+}
+.describe.d2{
+	text-align: left;
+	padding-left: 16px;
+}
+.describe h5{
+	color: #01B5FF;
+	font-size: 20px;
+	width: 100%;
+	font-weight: normal;
+}
+.describe p{
+	font-size: 14px;
+	width: 100%;
+}
+.jbpic img{
+	width: 58px;
+	height: 56px;
+}
+.jobs2 img{
+	width: 477px;
+	height: 285px;
+}
+/*课程安排*/
+.anpai{
+	padding-top: 40px;
+	overflow: hidden;
+	background: #fafafa;
+}
+.progressbox{
+	padding-left: 217px;
+	padding-top: 60px;
+	position: relative;
+	padding-bottom: 36px;
+}
+.progress{
+	border-left: 1px dashed #01B5FF;
+	padding-left: 110px;
+}
+.piterms{
+	border-top: 1px dashed #999;
+	color: #5C5C5C;
+	height: 74px;
+}
+.piterms.sp{
+	border-bottom: 1px dashed #999;
+}
+.pi1{
+	width: 165px;
+	text-indent: 15px;
+	font-size: 24px;
+	line-height: 74px;
+	font-weight: normal;
+	padding-right: 95px;
+}
+.pi1.sp{
+	line-height: 31px;
+	width:99px;
+	padding-right:146px;
+	height: 100%;
+	padding-left: 15px;
+	text-indent:0;
+	padding-top: 6px;
+}
+.pi2{
+	width: 608px;
+	padding-right: 4px;
+	line-height: 26px;
+	padding-top: 13px;
+}
+.steps{
+	position: absolute;
+	left: 0;
+	top: 84px;
+}
+.steps .st.st1{
+	margin-bottom: 120px;
+}
+.steps .st.st2{
+	margin-bottom: 50px;
+}
+/*.steps .st1 .shu{
+	height: 32px;
+	width: 1px;
+	background: #01B5FF;
+	margin-left: 8px;
+	margin-right: 15px;
+}*/
+.steps .st span{
+	height: 28px;
+	float: left;
+	font-size: 23px;
+	color: #01B5FE;
+}
+.steps .st .num{
+	background: url(../img/ld-antit.png);
+	background-repeat: no-repeat;
+	width: 71px;
+	margin-left: 22px; 
+}
+.steps .st .num1{
+	background-position:6px 1px;
+}
+.steps .st .num2{
+	background-position:-77px 1px;
+}
+.steps .st .num3{
+	background-position:-153px 1px;
+}
+.steps .st .dot{
+	background:url(../img/ld-antit.png) 0 -29px no-repeat;
+	width: 22px;
+	margin-left: 21px;
+}
+/*优惠活动*/
+.profit{
+	padding-top: 59px;
+}
+.profit ul{
+	padding-left: 47px;
+	padding-bottom: 80px;
+}
+.profit li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.profit li img{
+	width:199px; 
+	height: 199px;
+	margin-bottom: 65px;
+}
+.profit li p{
+	font-size: 25px;
+}	
+
+/*已就业学员*/
+.employeedbox{
+	position: relative;
+	padding-top: 142px;
+}
+.employeed{
+	padding-left: 35px;
+}
+.employeeInfo{
+	border-left: 1px dashed #01B5FF;
+	padding-left: ;
+	height: 420px;
+}
+.employeeTitle{
+	padding-left: 110px;
+	padding-bottom: 34px;
+}
+.employeeTitle span{
+	width: 160px;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+.dotbox{
+	position: absolute;
+	left: 24px;top: 231px;
+}
+.dotbox .dot{
+	background:url(../img/ld-antit.png) 0 -29px no-repeat;
+	width: 22px;
+	height: 28px;
+	margin-bottom: 36px;
+}
+
+/*报名*/
+.signbox{
+	padding-bottom: 43px;
+	padding-top: 25px;
+}
+.signbox .sign{
+	width: 50%;
+}
+.signb{
+	background:url(../img/ld-bm01.png) no-repeat;
+	width: 464px;
+	height: 647px;
+	margin-left: 63px;
+	padding-top: 50px;
+}
+.signb .hotbox{
+	text-align: center;
+	background:url(../img/ld-wave-border.png) no-repeat;
+	width: 226px;
+	height: 226px;
+	margin: 0 auto;
+	padding-top: 13px;
+	margin-bottom: 17px;
+}
+.signb .hotbox .hot{
+	background:url(../img/lyn-science-wave.gif) no-repeat 0px -186px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+	color: #fff;
+}
+.signb .hotbox .hot h1{
+	padding-top: 24px;
+}
+.signb .hotbox .hot .hs1{
+	font-weight: normal;
+	font-size: 75px;
+	margin-left: 12px;
+}
+.signb .hotbox .hot .hs2{
+	font-size: 38px;
+	font-weight: normal;
+	margin-left: 4px;
+}
+.signb .hotbox .hot h2{
+	font-size: 33px;
+	font-weight: normal;
+	margin-top: -10px;
+}
+.signInfo{
+	position: relative;
+
+}
+.signInfo .project{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 28px;
+}
+.signInfo .itemsbox{
+	margin-bottom: 22px;
+}
+.signInfo .itemsbox .itemsl{
+	padding-left: 100px;
+}
+.signInfo .itemsl .title{
+	font-size: 14px;
+	text-indent: 4px;
+	margin-bottom: 4px;
+}
+.signInfo .itemsl .pit{
+	color: #666;
+	line-height: 23px;
+	font-size: 12px;
+}
+.signInfo .itemsr{
+	text-align: right;
+	margin-left: 50px;
+}
+.signInfo .itemsr .title{
+	font-size: 14px;
+}
+.signInfo .itemsr .pit{
+	color: #666;
+	line-height:28px;
+	font-size: 12px;
+}
+.signInfo .btn{
+	width: 200px;
+	height: 50px;
+	background:#2691FD;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 24px;
+	line-height: 50px;
+}
+.dotsl{
+	position: absolute;
+	top: 90px;
+	left: 80px;
+}
+.dotsl img{
+	width: 5px;
+	height: 93px;
+}
+.dotsr{
+	position: absolute;
+	left: 388px;
+	top: 60px;
+}
+.dotsr li{
+	width: 7px;
+	height: 7px;
+	background: #FFC000;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

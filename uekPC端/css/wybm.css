@@ -1,0 +1,200 @@
+.hr_90{
+	height: 90px;
+}
+.hr_20{
+	height:20px ;
+}
+.hr_26{
+	height:26px ;
+}
+/*学员介绍*/
+.stu{
+	border:1px solid #E8E8E8;
+	padding: 0 30px;
+	padding-bottom: 50px;	
+}
+.stu .info{
+	overflow: hidden;
+}
+.stu .info .up p:nth-child(1){
+	line-height:90px;
+	font-size: 26px;
+} 
+.stu .info .time span{
+	font-size: 12px;
+	color: #9F9F9C;
+}
+.stu .info .time{
+	margin-bottom: 24px;
+}
+.stu .info .time span:nth-child(2){
+	margin-left: 18px;
+}
+.stu .info .down{
+	width: 1140px;
+	height: 300px;
+	background: #F3F3F3;
+	margin: 0 auto;
+}
+.contentbox{
+	padding: 29px;
+	padding-top: 25px;
+}
+.contentbox h3{
+	color: #666;
+	margin-bottom: 6px;
+	font-weight: normal;
+	font-size: 20px;
+}
+.contentbox .hx{
+	width: 100%;
+	height: 1px;
+	background: #BFBFBF;
+	margin-bottom: 16px;
+}
+.contentbox ul{
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+.contentbox li{
+	height: 36px;
+	line-height: 36px;
+	/*width: 50%;*/
+	float: left;
+	margin-bottom: 30px;
+}
+.contentbox .sp{
+	margin-left: 115px;
+}
+.contentbox li a{
+	/*font-size: 18px;*/
+}
+.contentbox li span{
+	color:#00B3FF;
+	padding-left: 5px;
+}
+.contentbox .personInfo{
+	text-indent: 10px;
+	color: #666;
+	height: 34px;
+	border: 1px solid #C9C9C9;
+	font-size: 16px;
+	width: 400px;
+	outline: none;
+	background: #fff;
+}
+.contentbox .yuyue{
+	width: 180px;
+	height: 46px;
+	background: #00B3FF;
+	color: #fff;
+	text-align: center;
+	line-height:46px ;
+	font-size: 16px;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+}
+.contentbox .yuyue:hover{
+	background:#0095FF ;
+}
+.stu .feel{
+	margin-left: 29px;
+	margin-right: 29px;
+	padding-top: 58px;
+	padding-bottom: 53px;
+	border-bottom: 1px dashed #A9A9A9;
+}
+.stu .feel .title{
+	margin-bottom: 20px;
+}
+.stu .feel span{
+	float: left;
+}
+.stu .feel .s1{
+	font-size: 20px;
+}
+.stu .feel .s2{
+	height: 22px;
+	background: #02BBFF;
+	width: 2px;
+	margin: 0 16px;
+	margin-top: 4px;
+}
+.stu .feel .s3{
+	color: #9999B2;
+	font-size: 13px;
+	margin-top: 6px;
+}
+.stu .feel .s1{
+	font-size: 20px;
+	font-weight: bold;
+}
+.stu .feel .s2{
+	height: 22px;
+	background: #02BBFF;
+	width: 2px;
+	margin: 0 16px;
+	margin-top: 4px;
+}
+.stu .feel .s3{
+	color: #9999B2;
+	font-size: 13px;
+	margin-top: 6px;
+}
+.stu .feel .p1{
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 11px;
+}
+.stu .feel .p1 a{
+	font-weight:bold ;
+	color: #000;
+	font-size: 14px;
+}
+.stu .feel .p2{
+	font-size: 14px;
+	color: #333;
+	line-height: 22px;
+}
+.stu .feel .p3{
+	color: #02BBFF;
+	margin-bottom: 8px;
+}
+.stu .feel li{
+	height: 24px;
+	line-height: 24px;
+}
+.stu .feel li span{
+	width: 7px;
+	height: 7px;
+	background: #999;
+	float: left;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.stu .feel li a{
+	float: left;
+	color: #333;
+	font-size: 14px;
+}
+.stu .feel.sp{
+	padding-bottom: 50px;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

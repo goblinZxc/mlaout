@@ -1,0 +1,269 @@
+.hr_90{
+	height: 90px;
+}
+/*面包屑*/
+.brand{
+	height: 48px;
+	line-height: 48px;
+}
+.brand a{
+	font-size: 18px;
+	color: #000000;
+}
+.brand a:hover{
+	color: #58C5FF;
+}
+.brand span{
+	color: #58C5FF;
+	font-size: 18px;
+}
+/*列表*/
+.lists{
+	padding-top: 10px;
+	margin-bottom: 25px;
+}
+/*左列表*/
+.listl{
+	width: 273px;
+	border:1px solid #E8E8E8;
+	border-top:2px solid #94D43B;
+	padding-left: 25px;
+	padding-top: 27px;
+	overflow: hidden;
+	padding-bottom: 285px;
+}
+.listl .hs3{
+	color: #585858;
+	font-size: 22px;
+}
+.listl h2{
+	margin-bottom: 24px;
+}
+.listl .hs1{
+	color: #B8B8B8;
+	font-size: 20px;
+}
+.listl .hs2{
+	color: #BCBCBC;
+	font-size: 20px;
+	font-weight: normal;
+}
+.listl .hs4{
+	color: #585858;
+	font-size: 22px;
+	font-weight: normal;
+}
+.listl .fgx{
+	background: #E6E6E6;
+	width: 237px;
+	height: 1px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.listl .fgx:before{
+	content: "";
+	display: block;
+	width: 3px;height: 3px;
+	position: absolute;
+	left: 0;
+	top: -1px;
+	background: #A1A1A1;
+}
+.listl .fgx:after{
+	content: "";
+	display: block;
+	width: 3px;height: 3px;
+	position: absolute;
+	right: 0;
+	top: -1px;
+	background: #A1A1A1;
+}
+.first{
+	height: 40px;
+	line-height: 40px;
+}
+.first>span{
+	float: left;
+	background: #FFDA1A;
+	width: 5px;height: 5px;
+	border-radius: 50%;
+	margin-top: 18px;
+	margin-left: 5px;
+	margin-right: 9px;
+}
+.first .years{
+	font-size: 18px;
+	color: #000;
+	/*float: left;*/
+}
+.first .years:hover,.first .years:active{
+	color: #01C5FF;
+}
+
+/*右列表*/
+.listr{
+	width: 845px;
+	border:1px solid #E8E8E8;
+	border-top:2px solid #94D43B;
+	padding-left: 30px;
+	padding-top: 27px;
+	overflow: hidden;
+	padding-bottom: 15px;
+	margin-bottom: 70px;
+}
+.listrin{
+	/*padding-left: 20px;*/
+	overflow: hidden;
+	/*text-align: center;*/
+}
+.listrin h1{
+	/*color: #01B5FF;*/
+	font-size:20px;
+	/*font-weight: bold;*/
+	/*text-indent: 11px;*/
+	margin-bottom: 25px;
+}
+.listrin h1 span{
+	margin-left: 36px;
+	font-size: 16px;
+	color: #666;
+	font-weight: normal;
+}
+.listrin img{
+	width: 814px;
+	height: 300px;
+	display: block;
+	margin-bottom: 44px;
+}
+.listrin p{
+	line-height: 25px;
+	font-size: 14px;
+	color:#666;
+	margin-bottom: 36px;
+}
+.listrin ul{
+	padding-left: 45px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	margin-top: -30px;
+}
+.listrin li{
+	margin-left: 72px;
+	width: 133px;
+	height: 133px;
+	float: left;
+}
+.listrin li img{
+	width: 133px;
+	height: 133px;
+}
+/*.listrin .p1{
+}
+.listrin .p2{
+	margin-bottom: 36px;
+}*/
+/*pages*/
+.pagesbox{
+	padding-left: 517px;
+	overflow: hidden;
+	margin-bottom: 96px;
+}
+.page1{
+	width:429px;
+	height: 45px;
+}
+.page1 a{
+	float: left;
+	background-image: url(../img/ld-pages.png);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.page1 .pre{
+	width:59px;
+	height: 32px;
+	background-position: -10px -104px;
+}
+.page1 .pa{
+	width: 34px;
+	height: 45px;
+	margin-left: 3px;
+	line-height: 32px;
+	color: #000;
+}
+.page1 .pa1{
+	color: #fff;
+	background-position: -109px -10px;
+}
+.page1 .pa2{
+	background-position: -9px -10px;
+}
+.page1 .pa3{
+	background-position: -9px -10px;
+}
+.page1 .pa4{
+	background-position: -9px -10px;
+}
+.page1 .pa5{
+	background-position:  -9px -10px;
+}
+.page1 .pa6{
+	background-position: -9px -10px;
+}
+.page1 .pa7{
+	background-position: -9px -10px;
+}
+.page1 .pa8{
+	background-position: -9px -10px;
+}
+.page1 .pa:active,.page1 .pa:hover{
+	color: #fff;
+	background-position: -109px -10px;
+}
+.page1 .next{
+	width:59px;
+	height: 32px;
+	background-position: -86px -104px;
+	margin-left: 3px;
+}
+.page2{
+
+}
+.page2 span{
+	float: left;
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+}
+.page2 a,.page2  input{
+	float: left;
+	background-image: url(../img/ld-pages.png);
+	background-repeat: no-repeat;
+}
+.page2 .topage{
+	width: 59px;
+	height: 32px;
+	line-height: 32px;
+	text-indent: 10px;
+	background-position:-10px -58px;
+	margin: 0 8px;
+	outline:none;
+	background-color: #F7F7F7;
+	border-radius: 15px; 
+}
+.page2 .tobtn{
+	font-size: 13px;
+	text-align: center;
+	height: 45px;
+	width: 34px;
+	line-height: 32px;
+	background-position:-9px -10px;
+	margin-left: 6px;
+	color: #000;
+}
+.page2 .tobtn:hover{
+	background-position:-110px -10px;
+	color: #fff;
+}
+
+
+

@@ -1,0 +1,141 @@
+.nav1{
+	width: 100%;
+	height: .82rem;
+}
+.nav1 a{
+	line-height: .82rem;
+	font-size: 10px;
+	margin-left: .24rem;
+	color: #000;
+}
+.nav1 span{
+	line-height: .82rem;
+	font-size: 10px;
+	color: #000;
+}
+
+.mainn{
+	margin: 0 0.24rem;
+	font-size: 10px;
+	margin-bottom: 0.3rem;
+}
+.m{
+	margin-bottom: 0.1rem;
+	background: #fff;
+}
+.mainn .main1 .news{
+	padding: 0 0.18rem 0 0.4rem;
+}
+.mainn .main1 .news p{
+	line-height: 17px;
+	max-width: 7.02rem;
+	
+}
+.mainn .main1 .news p:nth-child(1)
+{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:-webkit-box;
+	-webkit-line-clamp:4;
+	-webkit-box-orient: vertical;
+}
+.mainn .main1 .news p:nth-child(3)
+{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:-webkit-box;
+	-webkit-line-clamp:4;
+	-webkit-box-orient: vertical;
+}
+.hr_46{
+	height: 0.46rem;
+}
+.hr_30{
+	height: 0.3rem;
+}
+.mainn .m .titlebox{
+	padding:0.3rem 0.18rem 0.14rem 0.16rem;
+}
+.mainn .m .title{
+	border-bottom: 1px dashed #A7A7A7;
+	padding-bottom: 0.17rem;
+	margin-left:0.2rem;
+}
+.mainn .m .titlebox span{
+	color: #01B5FF;
+	font-size: 10px;
+	float: left;
+	font-weight: bold;
+}
+.mainn .m .title a{
+	font-size: 10px;
+	color:#000;
+	/*margin-left: .19rem;*/
+}
+
+.mainnn .m .titlebox{
+	padding:0.3rem 0.18rem 0.14rem 0.16rem;
+}
+.mainnn .m .title{
+	border-bottom: 1px dashed #A7A7A7;
+	padding-bottom: 0.17rem;
+	margin-left:0.2rem;
+}
+.mainnn .m .titlebox span{
+	color: #01B5FF;
+	font-size: 10px;
+	float: left;
+	font-weight: bold;
+}
+.mainnn .m .title a{
+	font-size: 10px;
+	color:#000;
+	/*margin-left: .19rem;*/
+}
+.mainnn{
+	margin: 0 0.24rem;
+	font-size: 10px;
+}
+.mainnn .main1{
+	overflow: hidden;
+	width: 100%;
+}
+.m{
+	margin-bottom: 0.1rem;
+	background: #fff;
+}
+.mainnn .tu a{
+	width: 2.8rem;
+	height: 2.8rem;
+	background: url(../img/t.jpg) no-repeat left top/cover;
+	border-radius: 5px;
+	display: block;
+}
+.mainnn .tu{
+	padding-left: .45rem;
+	margin-bottom: .2rem;
+	width: 46%;
+}
+.mainnn .wen{
+	padding-left: .17rem;
+	width: 54%;
+}
+.mainnn .wen .up{
+	margin-top: .27rem;
+	margin-bottom: .63rem;
+}
+.mainnn .wen .up a{
+	color: #02B5FF;
+}
+.mainnn .wen .middle p{
+	line-height: .5rem;
+}
+.mainnn .wen .middle b{
+	/*margin-left: .14rem;*/
+}
+.mainnn .wen .middle span{
+	max-width: 1.8rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}

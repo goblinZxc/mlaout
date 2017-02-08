@@ -1,0 +1,228 @@
+.nav1{
+	width: 100%;
+	height: .82rem;
+}
+.nav1 a{
+	line-height: .82rem;
+	font-size: 10px;
+	margin-left: .24rem;
+	color: #000;
+}
+.nav1 span{
+	line-height: .82rem;
+	font-size: 10px;
+}
+.main{
+	margin: 0 0.24rem;
+	font-size: 10px;
+	/*margin-bottom: .27rem;*/
+}
+.m{
+	padding-bottom: .03rem;
+	margin-bottom: 0.1rem;
+	background: #fff;
+}
+.main .main1 .news{
+	padding: 0 0.18rem 0 0.4rem;
+}
+.main .main1 .news p{
+	line-height: 17px;
+	max-width: 7.02rem;
+	
+}
+.main .main1 .news p:nth-child(1)
+{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:-webkit-box;
+	-webkit-line-clamp:9;
+	-webkit-box-orient: vertical;
+}
+.main .main1 .news p:nth-child(3)
+{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:-webkit-box;
+	-webkit-line-clamp:8;
+	-webkit-box-orient: vertical;
+}
+.main .main1 .news p:nth-of-type(3)
+{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:-webkit-box;
+	-webkit-line-clamp:7;
+	-webkit-box-orient: vertical;
+}
+.hr_46{
+	height: 0.46rem;
+}
+.hr_30{
+	height: 0.3rem;
+}
+.main .m .titlebox{
+	padding:0.3rem 0.18rem 0.14rem 0.16rem;
+}
+.main .m .title{
+	border-bottom: 1px dashed #A7A7A7;
+	padding-bottom: 0.17rem;
+	margin-left:0.2rem;
+}
+.main .m .titlebox span{
+	color: #01B5FF;
+	font-size: 10px;
+	float: left;
+	font-weight: bold;
+}
+.main .m .title a{
+	font-size: 10px;
+	color:#000;
+	/*margin-left: .19rem;*/
+}
+.main .main2 .show{
+	height: 2.04rem;
+	padding: 0 0.18rem 0 0.4rem;
+}
+.main .main2 .show li{
+	float: left;
+	width: 33.33%;
+}
+.main .main3 p{
+	max-width: 2.8rem;
+	margin-left: 0.43rem;
+	padding-bottom: 0.22rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.main .main4 p{
+	max-width: 4.2rem;
+	margin-left: 0.43rem;
+	padding-bottom: 0.22rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.main .main5 p{
+	max-width: 4rem;
+	margin-left: 0.43rem;
+	padding-bottom: 0.22rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.f2{
+	text-align: center;font-size: 10px;
+}
+.f2 .a1{
+	height: 2.25rem;
+	width: 100%;
+	/*background: green;*/
+	display: block;
+}
+.f2 p:nth-child(2){
+	padding-bottom: 0.14rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.f2 p:nth-child(3){
+	padding-bottom: 0.24rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.hr_64{
+	height: .64rem;
+}
+.mp4{
+	height: 3.6rem;background: #474747;
+	width: 100%;
+}
+.hx1{
+	border-bottom: 1px dashed #A7A7A7;
+	margin: 0.3rem 0;
+	width: 6.4rem;
+	height: 0;
+}
+.iconz{
+	margin-bottom: .27rem;
+}
+.iconz .one a{
+	float: left;
+	width: .4rem;
+	height: .4rem;
+	margin-left: .18rem;
+	margin-top: -0.07rem;
+}
+.iconz .one span{
+	float: left;
+}
+.iconz .one a:nth-of-type(1){
+	background: url(../img/kongjian.png) no-repeat center center/cover;
+	margin-left: 0;
+}
+.iconz .one a:nth-of-type(2){
+	background: url(../img/weibo.png) no-repeat center center/cover;
+}
+.iconz .one a:nth-of-type(3){
+	background: url(../img/txwb.png) no-repeat center center/cover;
+}
+.iconz .one a:nth-of-type(4){
+	background: url(../img/weixin.png) no-repeat center center/cover;
+}
+.iconz .one a:nth-of-type(5){
+	background: url(../img/qq.png) no-repeat center center/cover;
+}
+.iconz .two a{ 
+	float: left;
+	width: .4rem;
+	height: .4rem;
+	margin-left: .18rem;
+	margin-top: -0.07rem;
+}
+.iconz .two a:nth-of-type(1){
+	background: url(../img/zan.png) no-repeat center center/cover;
+}
+.iconz .two a:nth-of-type(2){
+	background: url(../img/zan.png) no-repeat center center/cover;
+}
+.newsshow{
+	padding: .16rem 0.4rem;
+}
+.newsshow p{
+	line-height: .4rem;
+	font-size: 12px;
+}
+.newsshow p span{
+	float: left;
+}
+.newsshow p a{
+	color: #68CAFD;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	max-width: 5.1rem;
+	float: left;
+}
+.wenti{
+	padding-left: .11rem;
+}
+.wenti p a{
+	margin-left: .1rem;
+	color: #000;
+	float: left;
+	line-height: .4rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.wenti p span{
+	width: .2rem;height: .2rem;
+	background: url(../img/yuan.png) no-repeat center center/cover;
+	float: left;
+	margin-top: .1rem;
+}
+.wenti p .last{
+	color: #03B5FF;
+}

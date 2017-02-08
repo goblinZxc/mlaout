@@ -1,0 +1,175 @@
+.hr_90{
+	height: 90px;
+}
+/*面包屑*/
+.brand{
+	height: 48px;
+	line-height: 48px;
+}
+.brand a{
+	font-size: 18px;
+	color: #000000;
+}
+.brand a:hover{
+	color: #58C5FF;
+}
+.brand span{
+	color: #58C5FF;
+	font-size: 18px;
+}
+/*列表*/
+.lists{
+	padding-top: 10px;
+	margin-bottom: 80px;
+}
+/*左列表*/
+.listl{
+	width: 273px;
+	border:1px solid #E8E8E8;
+	border-top:2px solid #94D43B;
+	padding-left: 25px;
+	padding-top: 27px;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.listl .hs3{
+	color: #585858;
+	font-size: 22px;
+}
+.listl h2{
+	margin-bottom: 24px;
+	padding-left: 25px;
+}
+.listl h1{
+	padding-left: 25px;
+}
+.listl .hs1{
+	color: #B8B8B8;
+	font-size: 20px;
+}
+.listl .hs2{
+	color: #BCBCBC;
+	font-size: 20px;
+	font-weight: normal;
+}
+.listl .hs4{
+	color: #585858;
+	font-size: 22px;
+	font-weight: normal;
+}
+.listl .fgx{
+	background: #E6E6E6;
+	width: 237px;
+	height: 1px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.listl .fgx:before{
+	content: "";
+	display: block;
+	width: 3px;height: 3px;
+	position: absolute;
+	left: 0;
+	top: -1px;
+	background: #A1A1A1;
+}
+.listl .fgx:after{
+	content: "";
+	display: block;
+	width: 3px;height: 3px;
+	position: absolute;
+	right: 0;
+	top: -1px;
+	background: #A1A1A1;
+}
+.first{
+	width: 260px;
+	height: 196px;
+	background:#ccc;
+	margin-left:-10px;
+	margin-bottom: 20px; 
+}
+/*右列表*/
+.listr{
+	width: 860px;
+	border:1px solid #E8E8E8;
+	border-top:2px solid #94D43B;
+	padding-left: 20px;
+	padding-top: 27px;
+	overflow: hidden;
+}
+.listrin{
+	/*padding-left: 20px;*/
+	overflow: hidden;
+}
+.listrin p{
+	/*color: #01B5FF;*/
+	/*font-weight: bold;*/
+	text-indent: 11px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.listrin p span{
+	float: left;
+	color: #666;
+	font-size: 14px;
+	padding-top: 6px;
+}
+.listrin p .in1{
+	color: #000;
+	font-size:20px;
+	padding: 0;
+}
+.listrin p .in{
+	background-image: url(../img/szh-icon.png);
+	background-repeat: no-repeat;
+	width:25px ;
+	height: 25px;
+	margin-top: 8px;
+}
+.listrin p .in2{
+	margin-left: 300px;
+	background-position:-100px -50px ;
+}
+.listrin p .in3{
+	background-position: -150px 0;
+	margin-left: 29px;
+}
+.videoshow{
+	width: 820px;
+	height: 470px;
+	background: #ccc;
+	margin-left: 11px;
+	margin-bottom: 10px;
+}
+.looks{
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.looks span{
+	float: left;
+	height: 45px;
+}
+.look{
+	width: 45px;
+	background-image: url(../img/szh-icon.png);
+	background-repeat: no-repeat;
+}
+.look1{
+	background-position:0 0 ;
+	margin-left: 11px;
+}
+.look3{
+	background-position:-50px 0 ;
+	margin-left: 36px;
+}
+.look2{
+	font-size: 12px;
+	line-height: 45px;
+	color: #;
+	margin-left: 10px;
+}
+
+
+
+

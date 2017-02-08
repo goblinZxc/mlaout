@@ -1,0 +1,149 @@
+.nav1{
+	width: 100%;
+	height: .82rem;
+}
+.nav1 a{
+	line-height: .82rem;
+	font-size: 10px;
+	margin-left: .24rem;
+	color: #000;
+}
+.nav1 span{
+	line-height: .82rem;
+	font-size: 10px;
+}
+.main{
+	margin: 0 0.24rem;
+	font-size: 10px;
+}
+.m{
+	margin-bottom: 0.1rem;
+	background: #fff;
+}
+.main .main1 .news{
+	padding: 0 0.18rem 0 0.4rem;
+}
+.main .main1 .news p{
+	line-height: 17px;
+	max-width: 7.02rem;
+	
+}
+.main .main1 .news p:nth-child(1)
+{	
+	max-width: 6.4rem;	
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:-webkit-box;
+	-webkit-line-clamp:9;
+	-webkit-box-orient: vertical;
+}
+.main .main1 .news p:nth-child(3)
+{
+	max-width: 6.4rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:-webkit-box;
+	-webkit-line-clamp:8;
+	-webkit-box-orient: vertical;
+}
+.hr_46{
+	height: 0.46rem;
+}
+.hr_30{
+	height: 0.3rem;
+}
+.main .m .titlebox{
+	padding:0.3rem 0.18rem 0.14rem 0.16rem;
+}
+.main .m .title{
+	width: 6.42rem;
+	border-bottom: 1px dashed #A7A7A7;
+	padding-bottom: 0.17rem;
+	margin-left:0.2rem;
+}
+.main .m .titlebox span{
+	color: #01B5FF;
+	font-size: 10px;
+	float: left;
+	font-weight: bold;
+}
+.main .m .title a{
+	font-size: 10px;
+	color:#000;
+	/*margin-left: .19rem;*/
+}
+.main .main2 .show{
+	height: 2.04rem;
+	padding: 0 0.18rem 0 0.4rem;
+}
+.main .main2 .show li{
+	float: left;
+	width: 33.33%;
+	padding-left: 0.3rem;
+	padding-top: 0.25rem;
+}
+.main .main2 .show li img{
+	width: 1.34rem;
+}
+.main .main3 p{
+	max-width: 2.8rem;
+	margin-left: 0.43rem;
+	padding-bottom: 0.22rem;
+	/*text-overflow:ellipsis;
+	overflow:hidden;*/
+	white-space:nowrap;
+}
+.main .main4 p{
+	max-width: 4.2rem;
+	margin-left: 0.43rem;
+	padding-bottom: 0.22rem;
+	/*text-overflow:ellipsis;
+	overflow:hidden;*/
+	white-space:nowrap;
+}
+.main .main5 p{
+	max-width: 4rem;
+	margin-left: 0.43rem;
+	padding-bottom: 0.22rem;
+	/*text-overflow:ellipsis;
+	overflow:hidden;*/
+	white-space:nowrap;
+}
+.baoming{
+	width: 100%;
+	display: block;
+	/*margin: 0 auto;*/
+	text-align: center;
+	padding-top: .34rem;
+}
+.baoming img{
+	width: 1.68rem;height: 1.68rem;
+}
+.f1{
+	padding-top: .27rem;
+	text-align: center;font-size: 10px;
+}
+.f1 .a1{
+	height: 2.25rem;
+	width: 100%;
+	/*background: green;*/
+	display: block;
+}
+.f1 p{
+	line-height: .36rem;
+}
+.f1 p:nth-child(2){
+	padding-bottom: 0.14rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.f1 p:nth-child(3){
+	padding-bottom: 0.24rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+
+

@@ -1,0 +1,314 @@
+.hr_90{
+	height: 90px;
+}
+/*面包屑*/
+.brand{
+	height: 48px;
+	line-height: 48px;
+}
+.brand a{
+	font-size: 18px;
+	color: #000000;
+}
+.brand a:hover{
+	color: #58C5FF;
+}
+.brand span{
+	color: #58C5FF;
+	font-size: 18px;
+}
+/*学员介绍*/
+.stu{
+	border:1px solid #E8E8E8;
+	padding: 0 30px;
+	padding-bottom: 50px;	
+}
+.stu .info{
+	border-bottom: 1px dashed #A9A9A9;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.stu .info .up p:nth-child(1){
+	line-height:90px;
+	font-size: 26px;
+} 
+.stu .info .time span{
+	font-size: 12px;
+	color: #9F9F9C;
+}
+.stu .info .time{
+	margin-bottom: 24px;
+}
+.stu .info .time span:nth-child(2){
+	margin-left: 18px;
+}
+
+
+.stu .info .tu img{
+	width: 242px;
+	height: 242px;
+}
+.stu .info .wen{
+	margin-left: 30px;
+}
+.stu .info .wen .p1{
+	font-size: 30px;
+	font-weight: bold;
+}
+.stu .info .wen .p2{
+	color: #007CD5;
+	font-size: 20px;
+	line-height: 72px;
+	margin-bottom: 8px;
+}
+.stu .info .wen .p3 .s1{
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	line-height: 28px;
+}
+.stu .info .wen .p3 .s2{
+	/*font-size: 16px;*/
+}
+
+
+.stu .feel{
+	padding-top: 18px;
+	margin-bottom: 48px;
+}
+.stu .feel .title{
+	margin-bottom: 20px;
+}
+.stu .feel span{
+	float: left;
+}
+.stu .feel .s1{
+	font-size: 20px;
+}
+.stu .feel .s2{
+	height: 22px;
+	background: #02BBFF;
+	width: 2px;
+	margin: 0 16px;
+	margin-top: 4px;
+}
+.stu .feel .s3{
+	color: #9999B2;
+	font-size: 13px;
+	margin-top: 6px;
+}
+.stu .feel p{
+	text-indent: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 25px;
+}
+
+.stu .feel .s1{
+	font-size: 20px;
+}
+.stu .feel .s2{
+	height: 22px;
+	background: #02BBFF;
+	width: 2px;
+	margin: 0 16px;
+	margin-top: 4px;
+}
+.stu .feel .s3{
+	color: #9999B2;
+	font-size: 13px;
+	margin-top: 6px;
+}
+.stu .feel p{
+	text-indent: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 25px;
+}
+
+.stu .work{
+	overflow: hidden;
+}
+.stu .work .title{
+	margin-bottom: 20px;
+}
+.stu .work span{
+	float: left;
+}
+.stu .work .s1{
+	font-size: 20px;
+}
+.stu .work .s2{
+	height: 22px;
+	background: #02BBFF;
+	width: 2px;
+	margin: 0 16px;
+	margin-top: 4px;
+}
+.stu .work .s3{
+	color: #9999B2;
+	font-size: 13px;
+	margin-top: 6px;
+}
+.stu .work p{
+	text-indent: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 25px;
+}
+
+.stu .work .s1{
+	font-size: 20px;
+}
+.stu .work .s2{
+	height: 22px;
+	background: #02BBFF;
+	width: 2px;
+	margin: 0 16px;
+	margin-top: 4px;
+}
+.stu .work .s3{
+	color: #9999B2;
+	font-size: 13px;
+	margin-top: 6px;
+}
+.stu .work p{
+	text-indent: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 25px;
+}
+.stu .work ul{
+	padding-bottom: 15px;
+	border-bottom: 2px solid #EDEDED;
+	overflow: hidden;
+}
+.stu .work li{
+	margin: 15px 0;
+	margin-right:29px;
+	float: left;
+}
+.stu .work li a{
+	display: block;
+	font-size: 0;
+}
+.stu .work .sp{
+	margin-right: 0;
+}
+.stu .work img{
+	width: 360px;
+	height: 202px;
+}
+
+.stu .share{
+	height: 76px;
+	line-height: 76px;
+	overflow: hidden;
+	border-bottom: 2px solid #EDEDED;
+}
+.stu .share .fl span{
+	font-size: 14px;
+	color: #666;
+	float: left;
+}
+.stu .share .fl a{
+	background: url(../img/ld-pages.png);
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 14px;
+	margin-top: 17px;
+}
+.stu .share .fl a:hover{
+	opacity: .8;
+}
+.stu .share .fl .a1{
+	background-position:-177px -10px;
+}
+.stu .share .fl .a2{
+	background-position:-177px -55px;
+}
+.stu .share .fl .a3{
+	background-position:-177px -105px;
+}
+.stu .share .fl .a4{
+	background-position:-177px -152px;
+}
+.stu .share .fl .a5{
+	background-position:-233px -10px;
+}
+.stu .share .fr a{
+	float: left;
+}
+.stu .share .fr span{
+	font-size: 12px;
+	display: block;
+	/*width: 15px;*/
+	height: 15px;
+	color: #A6A6A6;
+	margin-left: 14px;
+}
+.stu .share .fr .a6{
+	width: 40px;
+	height: 40px;
+	margin-right: 14px;
+	margin-top: 11px;
+	background:#FE6E20;
+	border-radius: 50%;
+}
+.stu .share .fr .a7{
+	width: 40px;
+	height: 40px;
+	margin-right: 14px;
+	margin-top: 11px;
+	background:#C6C6C6;
+	border-radius: 50%;
+}
+.stu .share .fr .a7:hover{
+	background:#FE6E20;
+}
+.stu .share .fr div em{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-style: normal;
+	background:url(../img/ld-pages.png);
+}
+.stu .share .fr div .e1{
+	background-position: -1px -143px;
+}
+.stu .share .fr div .e2{
+	background-position: -57px -143px;
+}
+
+.stu .updown{
+	font-size: 14px;
+	line-height: 33px;
+	padding: 29px 0;
+	border-bottom: 2px solid #EDEDED;
+}
+.stu .updown a{
+	color: #01B5FF;
+}
+.stu .updown a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

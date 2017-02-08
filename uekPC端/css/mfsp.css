@@ -1,0 +1,214 @@
+.hr_90{
+	height: 189px;
+}
+/*面包屑*/
+.brand{
+	height: 48px;
+	line-height: 48px;
+}
+.brand a{
+	font-size: 18px;
+	color: #000000;
+}
+.brand a:hover{
+	color: #58C5FF;
+}
+.brand span{
+	color: #58C5FF;
+	font-size: 18px;
+}
+/*列表*/
+.lists{
+	padding-top: 10px;
+	margin-bottom: 25px;
+}
+/*右列表*/
+.listr{
+	border:1px solid #E8E8E8;
+	border-top:2px solid #94D43B;
+	padding-left:30px;
+	padding-top: 27px;
+	overflow: hidden;
+	position: relative;
+}
+.listrin{
+	/*padding-left: 20px;*/
+	overflow: hidden;
+}
+.listrin>p{
+	color: #000;
+	font-size:26px;
+	margin-bottom: 20px;
+}
+.listrin ul{
+	overflow: hidden;
+	position: absolute;
+	left: 30px;
+	top: 135px;
+}
+.listrin li{
+	width: 262px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.listrin li a{
+	display: block;
+	width: 262px;
+	margin: 0 auto;
+	position: relative;
+	height: 214px;
+}
+.listrin li a img{
+	width: 262px;
+	height: 150px;
+	margin: 0 auto;
+	display: block;
+}
+.listrin li .down{
+	background: #F6F6F6;
+	width: 100%;
+	overflow: hidden;
+	line-height: 26px;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	z-index: 2;
+}
+.listrin li .down .dp1{
+	font-size: 12px;
+	padding-left: 7px;
+	color: #000;
+}
+.listrin li .down .dp2{
+	font-size: 10px;
+	color: #736F6A;
+	padding-right: 7px;
+	padding-left: 7px;
+	overflow: hidden;
+}
+.listrin li .mask{
+	position: absolute;
+	left: 0;
+	bottom: 24px;
+	width: 100%;
+	height: 40px;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	transition:bottom 700ms;
+}
+.listrin li:hover .mask{
+	bottom: 64px;
+}
+.listtop{
+	color: #666;
+	margin-bottom: 30px;
+	padding-bottom: 488px;
+}
+.listtop .option{
+	float: left;
+	color: #666;
+	border-top: 2px solid #fff;
+}
+.listtop .option:hover{
+	color: #01BBFF;
+	border-top: 2px solid #01BBFF;
+}
+.listtop .xg{
+	padding:0 20px;
+	float: left;
+}
+/*pages*/
+.pagesbox{
+	padding-left: 303px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.page1{
+	width:429px;
+	height: 45px;
+}
+.page1 a{
+	float: left;
+	background-image: url(../img/ld-pages.png);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.page1 .pre{
+	width:59px;
+	height: 32px;
+	background-position: -10px -104px;
+}
+.page1 .pa{
+	width: 34px;
+	height: 45px;
+	margin-left: 3px;
+	line-height: 32px;
+	color: #000;
+}
+.page1 .pa1{
+	color: #fff;
+	background-position: -109px -10px;
+}
+.page1 .pa2{
+	background-position: -9px -10px;
+}
+.page1 .pa3{
+	background-position: -9px -10px;
+}
+.page1 .pa:active,.page1 .pa:hover{
+	color: #fff;
+	background-position: -109px -10px;
+}
+.page1 .next{
+	width:59px;
+	height: 32px;
+	background-position: -86px -104px;
+	margin-left: 3px;
+}
+.page2{
+	padding-right: 265px;
+}
+.page2 span{
+	float: left;
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+}
+.page2 a,.page2  input{
+	float: left;
+	background-image: url(../img/ld-pages.png);
+	background-repeat: no-repeat;
+}
+.page2 .topage{
+	width: 59px;
+	height: 32px;
+	line-height: 32px;
+	text-indent: 10px;
+	background-position:-10px -58px;
+	margin: 0 8px;
+	outline:none;
+	background-color: #F7F7F7;
+	border-radius: 15px; 
+}
+.page2 .tobtn{
+	font-size: 13px;
+	text-align: center;
+	height: 45px;
+	width: 34px;
+	line-height: 32px;
+	background-position:-9px -10px;
+	margin-left: 6px;
+	color: #000;
+}
+.page2 .tobtn:hover{
+	background-position:-110px -10px;
+	color: #fff;
+}
+
+
+
