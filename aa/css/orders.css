@@ -1,12 +1,18 @@
 @import url(base.css);
+body{
+	display: flex;
+	flex-direction:column;
+}
 .topbar5{
 	height: .88rem;
 	/*line-height: .88rem;*/
 	background: #3867FA;
 	display: flex;
 	align-items:center;
-	flex:0 1 auto;
+	/*flex:0 0 auto;*/
 	justify-content:space-between;
+	flex-shrink:0;
+	flex-grow:0;
 }
 .topbar5 .l{
 	margin-left: .23rem;
@@ -56,13 +62,15 @@
 
 .contentbox7{
 	overflow: auto;
-	flex:1 1 auto;
-	/*justify-content:center;*/
+	flex:0 1 auto;
 	display: flex;
-	/*height: 5rem;*/
-	/*align-items:center;*/
 	flex-direction:column;
 	width: 100%;
+	/*flex-shrink:1;*/
+	/*flex-grow:1;*/
+}
+.contentbox7>*{
+	flex-shrink:0;
 }
 
 .floor{
@@ -92,7 +100,7 @@
 }	
 .floor1 .item1 .l{
 	display: flex;
-	/*height:1.3rem;*/
+	height:1.3rem;
 	align-items:center;
 	flex-direction:column;
 	justify-content:space-around;
@@ -235,7 +243,6 @@
 	font-size:.2rem ;
 	color: #BEBEBE;
 	display: flex;
-	/*justify-content:center;*/
 	align-items:center;
 }
 .floor4 .tiao{
@@ -246,17 +253,17 @@
 	position: relative;
 }
 .floor4 .tiao em{
-	position: absolute;
+	display: block;
 	width: .4rem;
 	height: .4rem;
-	background: url(../img/cir.png) center center/cobver no-repeat;
+	border-radius: 50%;
+	background: url(../img/cir.png) center center/cover no-repeat;
 }
 .floor5{
 	justify-content:space-between;
 	width: 100%;
 	height: .62rem;
 	display: flex;
-	/*justify-content:center;*/
 	align-items:center;
 	font-size:.2rem ;
 	color: #BEBEBE;
@@ -284,14 +291,13 @@
 
 /*底部*/
 .footer1{
-	position: absolute;
-	bottom: 0;
-	left: 0;
+	margin-top: 2.1rem;
 	width: 100%;
 	height: 1.1rem;
 	display: flex;
-	flex:0 1 auto;
 	align-items:center;
+	flex-shrink:0;
+	flex-grow:0;
 }
 .footer1 .l{
 	width: 4.8rem;
@@ -306,7 +312,6 @@
 	margin-left:.34rem ;
 	display: flex;
 	flex-direction:column;
-	/*align-items:center;*/
 }
 .footer1 .l .one a{
 	color: #FF1F45;

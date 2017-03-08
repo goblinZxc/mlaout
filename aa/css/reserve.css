@@ -1,4 +1,8 @@
 @import url(base.css);
+body{
+	display: flex;
+	flex-direction:column;
+}
 .topbar3{
 	height: .88rem;
 	/*line-height: .88rem;*/
@@ -25,9 +29,12 @@
 .contentbox5{
 	position: relative;
 	display: flex;
-	flex:1 1 auto;
+	flex-grow:1;
 	overflow: auto;
 	height: 10.14rem;
+}
+.contentbox5>*{
+	flex-shrink:0;
 }
 .tilt{
 	background: #2B5EFF;
@@ -171,6 +178,7 @@
 	flex-direction:column; 
 	width: 7rem;
 	font-size: .3rem;
+	padding-bottom: 2rem;
 }
 .client-titl{
 	height:1.5rem;
@@ -206,9 +214,6 @@
 
 
 .footer{
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	width: 100%;
 	height: 1rem;
 	background: #3163FF;
@@ -217,7 +222,9 @@
 	justify-content:center;
 	font-size: .3rem;
 	color: #fff;
-	flex:0 1 auto;
+	margin-top: 1.29rem;
+	flex-grow:0;
+	flex-shrink:0;
 }
 
 

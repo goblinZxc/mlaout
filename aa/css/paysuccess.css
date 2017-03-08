@@ -1,4 +1,8 @@
 @import url(base.css);
+body{
+	display:flex;
+	flex-direction:column;
+}
 .topbar{
 	height: .88rem;
 	line-height: .88rem;
