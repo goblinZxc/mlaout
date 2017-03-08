@@ -1,5 +1,5 @@
 body,ul,li,span,p,h1,h2,h3,figcaption,figure{margin: 0;padding:0;list-style: none;}
-a{text-decoration: none;-webkit-tap-highlight-color:transparent}
+a{text-decoration: none;-webkit-tap-highlight-color:transparent;}
 input{border: none;background: none;}
 img{border:0;}
 /*.hr_30{height: 30px;}*/
@@ -92,6 +92,7 @@ body{
     float: left;
     height: 100%;
     line-height: 0.86rem;
+    font-weight: bold;
 }
 /*简介*/
 .introduce{
@@ -219,6 +220,9 @@ body{
 .f0{
     background: #fff;
     overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom:0;
 }
 .f0 .items{
     width: 2.5rem;

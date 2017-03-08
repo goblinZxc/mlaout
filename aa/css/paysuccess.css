@@ -1,0 +1,99 @@
+@import url(base.css);
+.topbar{
+	height: .88rem;
+	line-height: .88rem;
+	background: #3867FA;
+}
+.topbar .l{
+	margin-left: .23rem;
+	margin-top: .21rem;
+	width: .46rem;
+	height: .46rem;
+	background: url(../img/2.png) center center/cover no-repeat;
+}
+.topbar .r{
+	margin-right: .23rem;
+	margin-top: .21rem;
+	width: .46rem;
+	height: .46rem;
+	background: url(../img/3.png) center center/cover no-repeat;
+}
+.topbar .m{
+	width: 2.94rem;
+	height: .54rem;
+	margin-top: .15rem;
+	margin-left: 1.6rem;
+	background: url(../img/4.png) center center/cover no-repeat;
+}
+
+.contentbox{
+	/*overflow: hidden;*/
+	width: 7.5rem;
+	height: 12.06rem;
+	background: url(../img/success.png) center center/cover no-repeat;
+}
+.inner{
+	width: 7.5rem;
+	position: absolute;
+	top: 7.2rem;
+	left: 50%;
+	margin-left: -3.75rem;
+	z-index: 99999;
+}
+.contentbox .inner a{
+	background: url(../img/5.png) center center/cover no-repeat;
+	width: 2.82rem;
+	height: 1.19rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #fff;
+}
+.contentbox .inner .check{
+	margin-left: .85rem;
+}
+.contentbox .inner .back{
+	margin-right: .85rem;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

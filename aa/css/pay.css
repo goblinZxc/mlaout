@@ -1,0 +1,216 @@
+@import url(base.css);
+.topbar1{
+	height: .88rem;
+	line-height: .88rem;
+	background: #3867FA;
+}
+.topbar1 .l{
+	margin-left: .23rem;
+	margin-top: .21rem;
+	width: .46rem;
+	height: .46rem;
+	background: url(../img/2.png) center center/cover no-repeat;
+}
+.topbar1 .m{
+	width: 2.17rem;
+	height: .42rem;
+	margin-top: .2rem;
+	margin-left: 2rem;
+	background: url(../img/4.png) center center/cover no-repeat;
+}
+
+.contentbox1{
+	padding-top: .86rem;
+}
+.contentbox1 h3{
+	text-align: center;
+	font-size: .32rem;
+	padding-bottom: 1rem;
+}
+.pswbox{
+	width: 4.56rem;
+	margin: 0 auto;
+	padding-bottom: 1.2rem;
+	overflow: hidden;
+}
+.pswbox li{
+	float: left;
+	width:1.14rem ;
+	height: 1.18rem;
+	background: url(../img/6.png) center center/cover no-repeat;
+}
+.pswbox li a{
+	width: 0.2rem;
+	height: .2rem;
+	margin: 0.49rem auto;
+	display: block;
+}
+.pswbox li a.active{
+	background: url(../img/9.png) center center/cover no-repeat;
+}
+.numbox{
+	width:7.5rem;
+	padding-left: .8rem;
+	background: #F7F7F7;
+	position: relative;
+	padding-top: .27rem;
+	overflow: hidden;
+}
+.numbox li{
+	width: 33.33%;
+	height:1.29rem; 
+	margin-bottom: .22rem;
+	float: left;
+}
+.numbox li .num{
+	display: block;
+	width: 1.29rem;
+	height: 100%;
+	background:url(../img/8.png) center center/cover no-repeat;
+}
+.numbox li .num1{
+	padding-top: .4rem;
+}
+.numbox li .num1 span{
+	width: .25rem;
+	height: .4rem;
+	background:url(../img/n1.png) center center/cover no-repeat;
+}
+.numbox li .num2{
+	padding-top: .4rem;
+}
+.numbox li .num2 span{
+	width: .32rem;
+	height: .4rem;
+	background:url(../img/n2.png) center center/cover no-repeat;
+}
+.numbox li .num3{
+	padding-top: .4rem;
+}
+.numbox li .num3 span{
+	width: .33rem;
+	height: .4rem;
+	background:url(../img/n3.png) center center/cover no-repeat;
+}
+.numbox li .num4{
+	padding-top: .4rem;
+}
+.numbox li .num4 span{
+	width: .35rem;
+	height: .4rem;
+	background:url(../img/n4.png) center center/cover no-repeat;
+}
+.numbox li .num5{
+	padding-top: .4rem;
+}
+.numbox li .num5 span{
+	width: .34rem;
+	height: .4rem;
+	background:url(../img/n5.png) center center/cover no-repeat;
+}
+.numbox li .num6{
+	padding-top: .4rem;
+}
+.numbox li .num6 span{
+	width: .34rem;
+	height: .4rem;
+	background:url(../img/n6.png) center center/cover no-repeat;
+}
+.numbox li .num7{
+	padding-top: .4rem;
+}
+.numbox li .num7 span{
+	width: .32rem;
+	height: .4rem;
+	background:url(../img/n7.png) center center/cover no-repeat;
+}
+.numbox li .num8{
+	padding-top: .4rem;
+}
+.numbox li .num8 span{
+	width: .35rem;
+	height: .4rem;
+	background:url(../img/n8.png) center center/cover no-repeat;
+}
+.numbox li .num9{
+	padding-top: .4rem;
+}
+.numbox li .num9 span{
+	width: .35rem;
+	height: .4rem;
+	background:url(../img/n9.png) center center/cover no-repeat;
+}
+.numbox li .num0{
+	padding-top: .4rem;
+}
+.numbox li .num0 span{
+	width: .32rem;
+	height: .4rem;
+	background:url(../img/n0.png) center center/cover no-repeat;
+}
+.numbox li .numStar{
+	padding-top: .5rem;
+}
+.numbox li .numStar span{
+	width: .2rem;
+	height: .2rem;
+	background:url(../img/n10.png) center center/cover no-repeat;
+}
+.numbox li .numDel{
+	padding-top: .4rem;
+}
+.numbox li .numDel span{
+	width: .49rem;
+	height: .37rem;
+	background:url(../img/n11.png) center center/cover no-repeat;
+}
+.numbox li .num span{
+	display: block;
+	margin: 0 auto;
+}
+.close{
+	width: .79rem;
+	height: .79rem;
+	position: absolute;
+	top: -0.31rem;
+	right: .2rem;
+	border-radius: 50%;
+	background: #f7f7f7;
+}
+.close .btn{
+	display: block;
+	background: url(../img/7.png) center center/cover no-repeat;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
