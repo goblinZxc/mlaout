@@ -6,6 +6,7 @@
 	display: flex;
 	align-items:center;
 	flex:0 1 auto;
+	flex-grow:0;
 }
 .topbar4 .l{
 	margin-left: .23rem;
@@ -43,15 +44,16 @@
 .contentbox6{
 	display: flex;
 	flex:1 1 auto;
+	flex-grow:1;
 	overflow: auto;
-	width: 7.5rem;
+	width: 100%;
 	height: 12rem;
 	flex-direction:column;
 }
 .lines{
 	display: flex;
 	/*flex-direction:column;*/
-	justify-content:;
+	justify-content:center;
 	align-items:center;
 	width: 7.5rem;
 	height: .88rem;
@@ -158,6 +160,7 @@
 	padding-left: .44rem;
 	padding-top:.12rem ;
 	flex-wrap:wrap;
+	width: 6.2rem;
 }
 .citybox .item{
 	background:url(../img/bg2.png) center center/cover no-repeat;
